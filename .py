@@ -87,6 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
 from turtle import *
 import math, random
 ht()
@@ -124,4 +125,3 @@ while 1:
         setx(99)
     if ycor == -100:
         sety(99)
-
