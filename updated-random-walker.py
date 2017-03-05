@@ -27,11 +27,11 @@ while 1:
     else:
         pencolor("#ff00ff")
         setx(xval-1)
-    if xcor == 100:
+    if xcor >= 100:
         setx(-99)
-    if ycor == 100:
+    if ycor >= 100:
         sety(-99)
-    if xcor == -100:
+    if xcor >= -100:
         setx(99)
-    if ycor == -100:
+    if ycor >= -100:
         sety(99)
